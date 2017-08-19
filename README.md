@@ -1,2 +1,2 @@
 # MGSpaceInvaders
-MotionGame SpaceInvader Clone
+MotionGame SpaceInvaders Clone

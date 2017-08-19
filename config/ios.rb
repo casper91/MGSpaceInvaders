@@ -9,4 +9,7 @@ end
 Motion::Project::App.setup do |app|
   # Use `rake ios:config' to see complete project settings.
   app.name = 'MGSpaceInvaders'
+
+  # Set portrait mode only
+  app.info_plist['UISupportedInterfaceOrientations'] = ['UIInterfaceOrientationPortrait']
 end
