@@ -14,6 +14,8 @@ Motion::Project::App.setup do |app|
 
   app.identifier = 'dk.ccapps.cch'
 
+  app.deployment_target = '8.0'
+
   app.development do
     app.provisioning_profile = 'provision/Development.mobileprovision'
     app.codesign_certificate = 'iPhone Developer: Casper Christensen'
